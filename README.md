@@ -1,4 +1,4 @@
-# The Pico > [!IMPORTANT]
+# The Pico Ipod
 > The Pico Ipod is a recreation of the apple Ipod, parts being soldered onto the PCB. 
 
 # Files
