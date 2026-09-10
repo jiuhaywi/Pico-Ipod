@@ -4794,7 +4794,7 @@
 		(lib_id "Device:RotaryEncoder_Switch")
 		(at 107.95 25.4 0)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4883,7 +4883,7 @@
 		(lib_id "power:PWR_FLAG")
 		(at 270.51 20.32 0)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4962,7 +4962,7 @@
 		(at 160.02 26.67 90)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5040,7 +5040,7 @@
 		(lib_id "power:GND")
 		(at 119.38 27.94 90)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5119,7 +5119,7 @@
 		(lib_id "power:GND")
 		(at 254 34.29 90)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5198,7 +5198,7 @@
 		(lib_id "Device:C")
 		(at 186.69 27.94 90)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5277,7 +5277,7 @@
 		(lib_id "power:GND")
 		(at 110.49 40.64 90)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5356,7 +5356,7 @@
 		(lib_id "MCU_Module:RaspberryPi_Pico")
 		(at 115.57 124.46 0)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5552,7 +5552,7 @@
 		(lib_id "Switch:SW_Push")
 		(at 215.9 45.72 0)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5633,7 +5633,7 @@
 		(at 110.49 38.1 270)
 		(mirror x)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5711,7 +5711,7 @@
 		(lib_id "power:GND")
 		(at 90.17 25.4 270)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5789,7 +5789,7 @@
 		(lib_id "Switch:SW_SPDT")
 		(at 260.35 22.86 0)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5872,7 +5872,7 @@
 		(lib_id "power:GND")
 		(at 22.86 39.37 270)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5950,7 +5950,7 @@
 		(lib_id "Device:C")
 		(at 224.79 19.05 90)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6029,7 +6029,7 @@
 		(lib_id "Device:R")
 		(at 176.53 22.86 270)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6108,7 +6108,7 @@
 		(lib_id "power:GND")
 		(at 220.98 57.15 90)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6187,7 +6187,7 @@
 		(lib_id "power:GND")
 		(at 191.77 57.15 90)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6266,7 +6266,7 @@
 		(lib_id "power:GND")
 		(at 78.74 49.53 90)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6344,7 +6344,7 @@
 		(lib_id "power:+3V3")
 		(at 120.65 83.82 0)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6422,7 +6422,7 @@
 		(lib_id "power:GND")
 		(at 191.77 45.72 90)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6501,7 +6501,7 @@
 		(lib_id "Connector:Micro_SD_Card_Det1")
 		(at 55.88 36.83 0)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6605,7 +6605,7 @@
 		(lib_id "Device:C")
 		(at 224.79 27.94 90)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6684,7 +6684,7 @@
 		(lib_id "Device:R")
 		(at 214.63 22.86 270)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6763,7 +6763,7 @@
 		(lib_id "Switch:SW_Push")
 		(at 186.69 57.15 0)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6843,7 +6843,7 @@
 		(lib_id "Connector:Conn_01x08_Pin")
 		(at 92.71 45.72 0)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6940,7 +6940,7 @@
 		(lib_id "Device:C")
 		(at 186.69 19.05 90)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7019,7 +7019,7 @@
 		(lib_id "Connector_Audio:AudioJack3")
 		(at 143.51 29.21 0)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7102,7 +7102,7 @@
 		(lib_id "Switch:SW_Push")
 		(at 186.69 45.72 0)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7182,7 +7182,7 @@
 		(lib_id "power:GND")
 		(at 220.98 45.72 90)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7261,7 +7261,7 @@
 		(lib_id "power:+3V3")
 		(at 22.86 33.02 90)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7340,7 +7340,7 @@
 		(lib_id "power:GND")
 		(at 231.14 19.05 90)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7419,7 +7419,7 @@
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 246.38 31.75 0)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7499,7 +7499,7 @@
 		(lib_id "Switch:SW_Push")
 		(at 215.9 57.15 0)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7579,7 +7579,7 @@
 		(lib_id "power:GND")
 		(at 193.04 19.05 90)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7658,7 +7658,7 @@
 		(lib_id "power:GND")
 		(at 115.57 166.37 0)
 		(unit 1)
-		(body_style 1)
+		
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
