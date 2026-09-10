@@ -1,0 +1,298 @@
+{
+  "version": 1,
+  "editor": "wokwi",
+  "author": "Wes",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico1",
+      "top": 200,
+      "left": 10,
+      "attrs": {
+        "env": "circuitpython-8.0.2"
+      }
+    },
+    {
+      "type": "wokwi-ili9341",
+      "id": "lcd1",
+      "top": 60,
+      "left": 250,
+      "attrs": {
+        "flipHorizontal": "1"
+      }
+    },
+    {
+      "type": "wokwi-microsd-card",
+      "id": "sd1",
+      "top": 60,
+      "left": 520,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-ky-040",
+      "id": "encoder1",
+      "top": 320,
+      "left": 250,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn_up1",
+      "top": 280,
+      "left": 430,
+      "attrs": {
+        "color": "blue"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn_down1",
+      "top": 380,
+      "left": 430,
+      "attrs": {
+        "color": "blue"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn_left1",
+      "top": 330,
+      "left": 380,
+      "attrs": {
+        "color": "blue"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn_right1",
+      "top": 330,
+      "left": 480,
+      "attrs": {
+        "color": "blue"
+      }
+    }
+  ],
+  "connections": [
+    [
+      "pico1:GP13",
+      "lcd1:CS",
+      "green",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GP14",
+      "lcd1:SCK",
+      "green",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GP15",
+      "lcd1:MOSI",
+      "green",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GP21",
+      "lcd1:D/C",
+      "green",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GP20",
+      "lcd1:RESET",
+      "green",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GP22",
+      "lcd1:LED",
+      "green",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:3V3",
+      "lcd1:VCC",
+      "red",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GND.1",
+      "lcd1:GND",
+      "black",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GP17",
+      "sd1:CS",
+      "green",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GP18",
+      "sd1:SCK",
+      "green",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GP19",
+      "sd1:MOSI",
+      "green",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GP16",
+      "sd1:MISO",
+      "green",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:3V3",
+      "sd1:VCC",
+      "red",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GND.7",
+      "sd1:GND",
+      "black",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GP10",
+      "encoder1:CLK",
+      "orange",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GP11",
+      "encoder1:DT",
+      "orange",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GP12",
+      "encoder1:SW",
+      "orange",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:3V3",
+      "encoder1:VCC",
+      "red",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GND.2",
+      "encoder1:GND",
+      "black",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GP2",
+      "btn_up1:1.r",
+      "blue",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GND.3",
+      "btn_up1:2.r",
+      "black",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GP3",
+      "btn_down1:1.r",
+      "blue",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GND.4",
+      "btn_down1:2.r",
+      "black",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GP4",
+      "btn_left1:1.r",
+      "blue",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GND.5",
+      "btn_left1:2.r",
+      "black",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GP5",
+      "btn_right1:1.r",
+      "blue",
+      [
+        "h0"
+      ]
+    ],
+    [
+      "pico1:GND.6",
+      "btn_right1:2.r",
+      "black",
+      [
+        "h0"
+      ]
+    ]
+  ],
+  "dependencies": {},
+  "serialMonitor": {
+    "display": "always",
+    "convertEol": true
+  }
+}

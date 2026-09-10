@@ -1,0 +1,8 @@
+[wokwi]
+version = 1
+firmware = "adafruit-circuitpython-raspberry_pi_pico-en_US-10.3.0.uf2"
+diagram = "diagram.json"
+elf = ""
+
+[circuitpython]
+drive = "."

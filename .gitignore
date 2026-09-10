@@ -1,1 +1,14 @@
-build/
+circuitpython_build/
+*.img
+*.bin
+*.iso
+*.dmg
+__pycache__/
+*.py[cod]
+*$py.class
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
